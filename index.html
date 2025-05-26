@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Project: Build a Personal Profile Page</title>
+</head>
+<body>
+    <header class="section">
+        <h3 class="subtitle">About me</h3>
+        <p>I'm a fullstack web developer, I work mainly with Angular on the frontend, Java Spring Boot on the backend and MySQL as my DBMS, but I'm flexible to work with any technology.</p>
+        <p>I'm very passionate about the programming world, and like looking for new challenges and things to learn. </p>
+    </header>
+    <main>
+        <section class="section">
+            <img id="mutlimedia-image" src="images/mypicture.jpeg" alt="">
+        </section>
+        <section class="section" id="linksSection">
+            <h3 class="subtitle">Links</h3>
+            <a href="https://leyendasurbanasmexicanas.com/">Leyendas urbanas mexicanas</a>
+            <a href="https://terrortoys.pages.dev/">Terror Toys</a>
+            <a href="https://cdtonos.com/html/paginasDiscos/discos">CD Tonos</a>
+        </section>
+        <section id="form">
+            <h3 class="title">Form</h3>
+            <form id="contactForm" action="post">
+                <input class="contactForm-input" type="text" name="name" placeholder="Enter your name" minlength="8" required>
+                <input class="contactForm-input" type="email" name="email" placeholder="Enter your email" required>
+                <textarea class="contactForm-textArea" name="message" placeholder="Write your message here" minlength="30" required></textarea>
+                <input class="contactForm-button" type="submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
